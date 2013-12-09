@@ -1,0 +1,118 @@
+
+
+
+
+
+/*.ui-body-c,.ui-overlay-c {
+	background: #FFFFFF !important;
+  text-shadow: 0px 0px 0px !important;
+}*/
+
+.ui-body-a, .ui-overlay-a{
+  text-shadow: 0px 0px 0px !important;
+  font-family:"Helvetica Neue", Helvetica, Arial;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+#wrapper {
+  position: absolute!important;
+  background-color: #34495E!important;
+  width: 320px!important;
+  height: 84px!important;  
+  font-family:"Helvetica Neue", Helvetica, Arial!important;
+  line-height: 1.3333!important;
+  z-index: 900;
+
+}
+
+#overskrift{
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  left: 110px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+#meny{
+  position: absolute;
+  height: 40px;
+  width: 320px;
+  top: 84px;
+  left: 0;
+  z-index: 999;
+}
+
+#navmeny{
+  position: absolute;
+  height: 50px;
+  width: 320px;
+  top: 84px;
+  left: 0;
+  z-index: 999;
+  background-color: black;
+}
+
+#nav1{
+position: absolute;
+  height: 40px;
+  width: 40x;
+  top: 5px;
+  left: 30px;
+  z-index: 999;
+}
+#nav2{
+position: absolute;
+  height: 40px;
+  width: 40x;
+  top: 5px;
+  left: 105px;
+  z-index: 999;
+}
+#nav3{
+position: absolute;
+  height: 40px;
+  width: 40x;
+  top: 5px;
+  left: 180px;
+  z-index: 999;
+}
+
+
+#nav4{
+position: absolute;
+  height: 40px;
+  width: 40x;
+  top: 5px;
+  left: 250px;
+  z-index: 999;
+}
+
+.container {
+  position: relative;
+    width: 320px;
+    height: 120px;
+    top: 134px;
+    left: 0
+    z-index: 999;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+    z-index: 999;
+}
+
+#img{
+  position: absolute;
+  left: 120px;
+  top: 50px;
+}
+
+

@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ny bruker</title>  
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="nybruker.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		
+		<script>
+		function save(){
+			var fieldValue = document.getElementById('textfield').value;
+			localStorage.setItem('text', fieldValue);
+		}
+
+		function load() {
+
+			var storedValue = localStorage.getItem('text');
+
+			if (storedValue) {
+				document.getElementById('textfield').value = storedValue;
+			}
+		}
+
+		</script>
+		</head>
+
+
+    <body onload="load()">
+
+    	<!-- <input type="text" id="textfield"/> -->
+    	
+
+
+
+
+
+  <form action="bmi.html">
+  <h1><span>Ny</span> Bruker</h1>
+  <input placeholder="Brukernavn" type="text" id="textfield"/>
+  
+  <input type="button" value="Lagre" id="btn" onclick="save()"/>
+
+  <button id="knapp">Logg inn</button>
+
+
+</form>
+
+</body>
+</html>

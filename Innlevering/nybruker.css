@@ -1,0 +1,90 @@
+
+
+body{
+  background: #34495E;
+}
+
+* {
+  font-family:"Helvetica Neue", Helvetica, Arial;
+}
+
+
+
+form {
+  background:#fff;
+  border-radius:6px;
+  padding:20px;
+  padding-top:30px;
+  width:280px;
+  margin:43px auto;
+  left: 0;
+  top: 0px;
+  position: absolute;
+  height: 365px;
+}
+
+h1 {
+  text-align:center;
+  font-size:1.4em;
+  font-weight:700;
+  color:#ccc;
+  margin-bottom:24px;
+}
+
+span {
+  font-weight:200;
+}
+
+input {
+  width:260px;
+  width:calc(100% - 40px);
+  background:#f5f5f5;
+  border:0;
+  padding:20px;
+  border-radius:6px;
+  margin-bottom:10px;
+  border:1px solid #eee;
+}
+
+#btn {
+  position:relative;
+  width:100%;
+  padding:20px;
+  border-radius:6px;
+  border:0;
+  background:#f26964;
+  font-size:1.2em;
+  color:#fff;
+  text-shadow:1px 1px 0px rgba(0,0,0,.1);
+  box-shadow:0px 3px 0px #c1524e;
+  top: 20px;
+}
+
+#btn:active {
+  top:23px;
+  box-shadow:none;
+}
+
+#knapp {
+  position:relative;
+  width:100%;
+  padding:20px;
+  border-radius:6px;
+  border:0;
+  background:#446CB3;
+  font-size:1.2em;
+  color:#fff;
+  text-shadow:1px 1px 0px rgba(0,0,0,.1);
+  box-shadow:0px 3px 0px #13559D;
+  top: 60px;
+}
+
+#knapp:active {
+  top:63px;
+  box-shadow:none;
+}
+
+
+
+
+
